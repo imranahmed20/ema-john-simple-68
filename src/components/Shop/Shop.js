@@ -13,7 +13,7 @@ import './Shop.css';
 */
 
 const Shop = () => {
-    const products = useLoaderData();
+    const {products} = useLoaderData();
     const [cart, setCart] = useState([]);
 
     const clearCart = () =>{
